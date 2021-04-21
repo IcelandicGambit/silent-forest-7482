@@ -12,30 +12,6 @@ RSpec and Shoulda-Matchers have been installed and set up.
 4. `cd b2-mid-mod`
 5. `bundle install`
 
-## Instructions
-
-* Work on this assessment independently. DO NOT discuss with anyone.
-* You are allowed to use any references including notes, Google, lesson plans, etc.
-* Read each story carefully before you start working.
-* Commit Frequently, about every 15 - 30 minutes
-* Push your code to your fork once the time is up (not before!)
-
-## Submission
-
-Once the time for the assessment is up, push your code to your fork and create a pull request to the `turingschool-examples` repository. Include the following:
-
-* Your Name
-* A reflection on how you felt you did with this challenge and what story you got through
-
-## Requirements
-
-* TDD all new work
-* model methods and relationships must be fully tested.
-
-## Not Required
-
-* No visual styling is required or expected
-* You do not need to test for or create any model validations.
 
 ## Overview
 
@@ -54,7 +30,7 @@ Some of the initial migrations and model set up has been done for you. After you
 ## User Stories
 
 ```
-User Story 1 - Ingredient Show Page
+User Story 1 - Ingredient Show Page (features)
 
 As a visitor
 When I visit an ingredient's show page
@@ -63,7 +39,7 @@ And I see the names and descriptions of all dishes that include this ingredient
 ```
 
 ```
-User Story 2 - Ingredient's Chefs
+User Story 2 - Ingredient's Chefs  (active record)
 
 As a visitor
 When I visit an ingredient's show page
@@ -73,7 +49,7 @@ And I see that the chefs are ordered alphabetically by name (A - Z)
 ```
 
 ```
-User Story 3 - Remove a Dish from the Ingredient
+User Story 3 - Remove a Dish from the Ingredient (focused on a delete route, dish ingredients controller that deletes relationship between dish and ingredient)
 
 As a visitor
 When I visit an ingredient's show page
